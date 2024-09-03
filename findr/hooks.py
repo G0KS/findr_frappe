@@ -12,6 +12,7 @@ app_license = "mit"
 # include js, css files in header of desk.html
 # app_include_css = "/assets/findr/css/findr.css"
 # app_include_js = "/assets/findr/js/findr.js"
+app_include_js = "findr.bundle.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/findr/css/findr.css"
@@ -121,6 +122,12 @@ app_license = "mit"
 # Document Events
 # ---------------
 # Hook on document methods and events
+
+# doc_events = {
+#     "*": {
+#         "on_update": ["findr.api.create_payment_order","findr.api.verify_payment"],
+#     }
+# }
 
 # doc_events = {
 # 	"*": {
